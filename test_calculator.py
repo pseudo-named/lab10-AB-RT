@@ -1,3 +1,8 @@
+#https://github.com/pseudo-named/lab10-AB-RT.git
+#Partner 1: Andrew Belser
+#Partner 2: Rylie Troendle
+
+
 import unittest
 from calculator import *
 
