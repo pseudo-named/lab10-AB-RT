@@ -32,14 +32,15 @@ class TestCalculator(unittest.TestCase):
     ##########################
 
     ######## Partner 2
-    # def test_divide_by_zero(self): # 1 assertion
-    #     # call division function inside, example:
-    #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
-    #     #     div(0, 5)
-    #     fill in code
+    def test_divide_by_zero(self): # 1 assertion
 
-    # def test_logarithm(self): # 3 assertions
-    #     fill in code
+        self.assertEqual(div(5,0),"division by zero")
+
+
+    def test_logarithm(self): # 3 assertions
+        self.assertEqual(log(100,10),2)
+        self.assertEqual(log(16,2),4)
+        self.assertEqual(log(324,18),2)
 
     # def test_log_invalid_base(self): # 1 assertion
     #     # use same technique from test_divide_by_zero
