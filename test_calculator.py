@@ -12,7 +12,7 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 1
     # def test_multiply(self): # 3 assertions
-    #     fill in code
+    #     self.assertEqual(calulator.multiply(3,4),12)
 
     # def test_divide(self): # 3 assertions
     #     fill in code
