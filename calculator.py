@@ -50,6 +50,10 @@ def log(a, b):
 def exp(a, b):
     return a**b
 
+def mult_by_2(num):
+    return num*2
+
+
 
 
 
