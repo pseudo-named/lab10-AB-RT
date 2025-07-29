@@ -26,7 +26,7 @@ def add(a, b):
     return a + b
 
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 
@@ -41,7 +41,7 @@ def div(a, b):
         return str(error)
 
 
-def log(a, b):
+def logarithm(a, b):
     try:
         return math.log(a, b)
     except ValueError as error:
@@ -49,7 +49,6 @@ def log(a, b):
 
 def exp(a, b):
     return a**b
-
 
 
 
