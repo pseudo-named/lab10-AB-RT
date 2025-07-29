@@ -42,9 +42,9 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(log(16,2),4)
         self.assertEqual(log(324,18),2)
 
-    # def test_log_invalid_base(self): # 1 assertion
-    #     # use same technique from test_divide_by_zero
-    #     fill in code
+    def test_log_invalid_base(self): # 1 assertion
+        self.assertEqual(log(100,-1),"math domain error")
+
     # ##########################
     
     ####### Partner 1
