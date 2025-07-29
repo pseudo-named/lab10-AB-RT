@@ -34,11 +34,11 @@ def mul(a, b):
     return a * b
 
 
-# def div(a, b):
-#     try:
-#         return a / b
-#     except ZeroDivisionError as error:
-#         return str(error)
+def div(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError as error:
+        return str(error)
 
 
 def log(a, b):
