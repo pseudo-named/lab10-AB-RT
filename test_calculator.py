@@ -2,7 +2,7 @@
 #Partner 1: Andrew Belser
 #Partner 2: Rylie Troendle
 
-
+from calculator import *
 import unittest
 from calculator import *
 
@@ -19,13 +19,17 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(sub(12345,0),12345)
     # ##########################
 
-    ######## Partner 1
-    # def test_multiply(self): # 3 assertions
-    #     self.assertEqual(calulator.multiply(3,4),12)
+    ####### Partner 1
+    def test_multiply(self): # 3 assertions
+        self.assertEqual(mul(3,4),12)
+        self.assertEqual(mul(-5,10),-50)
+        self.assertEqual(mul(0,456),0)
 
-    # def test_divide(self): # 3 assertions
-    #     fill in code
-    # ##########################
+    def test_divide(self): # 3 assertions
+        self.assertEqual(div(10,2), 5)
+        self.assertEqual(div(-9,3),-3)
+        self.assertEqual(div(0,5),0)
+    ##########################
 
     ######## Partner 2
     # def test_divide_by_zero(self): # 1 assertion
