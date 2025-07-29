@@ -2,7 +2,6 @@
 #Partner 1: Andrew Belser
 #Partner 2: Rylie Troendle
 
-from calculator import *
 import unittest
 from calculator import *
 
