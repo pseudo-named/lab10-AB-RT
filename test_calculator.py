@@ -3,11 +3,15 @@ from calculator import *
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
-    # def test_add(self): # 3 assertions
-    #     fill in code
+    def test_add(self): # 3 assertions
+        self.assertEqual(add(1,100),101)
+        self.assertEqual(add(-52,180),128)
+        self.assertEqual(add(123,456),579)
 
-    # def test_subtract(self): # 3 assertions
-    #     fill in code
+    def test_subtract(self): # 3 assertions
+        self.assertEqual(sub(1000,420),580)
+        self.assertEqual(sub(-100,-400),300)
+        self.assertEqual(sub(12345,0),12345)
     # ##########################
 
     ######## Partner 1
